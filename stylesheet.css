@@ -25,25 +25,32 @@ img{
   margin: 0;
 }
 
+.header-nav > img {
+  float: left;
+}
+
+
 .title {
   margin: 0 auto;
   max-width: 900px;
   text-align: center;
   vertical-align: middle;
   font-family: Open Sans, sans-serif;
-  line-height: 75px;
 }
 
 .title h1 {
+  line-height: 75px;
   font-size: 75px;
-  margin: 0;
+  margin: 200px auto auto auto;
+  color: #eee;
 }
 
 .title h2 {
   font-size: 12px;
-  line-height: 12px
+  line-height: 12px;
   padding: 0;
-  margin: 0;
+  margin: 16px auto 195px auto;
+  color: #073551;
 }
 
 
