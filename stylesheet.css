@@ -3,12 +3,22 @@ body {
 }
 /*background image*/
 header {
-  background-blend-mode:overlay;
-  background: url(images/waves.jpg) no-repeat center hsla(212, 75%, 37%, 1);
-  background-size: cover;
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(32, 92, 149, 0.8),
+      rgba(32, 92, 149, 0.8)
+
+    ),
+    /* bottom, image */
+    url(images/waves.jpg) no-repeat center;
+    background-size: cover;
   height: 523px;
   width: 100%;
 
+}
+ul {
+  display: inline-block;
 }
 
 img{
@@ -25,10 +35,6 @@ img{
   margin: 0;
 }
 
-.header-nav > img {
-  float: left;
-}
-
 
 .title {
   margin: 0 auto;
@@ -39,15 +45,17 @@ img{
 }
 
 .title h1 {
-  line-height: 75px;
-  font-size: 75px;
-  margin: 200px auto auto auto;
+  line-height: 100%;
+  font-size: 85px;
+  width: 900px;
+  margin: 150px auto auto auto;
   color: #eee;
 }
 
 .title h2 {
-  font-size: 12px;
+  font-size: smaller;
   line-height: 12px;
+  font-weight: bold;
   padding: 0;
   margin: 16px auto 195px auto;
   color: #073551;
@@ -56,28 +64,73 @@ img{
 
 .header-nav {
   display: inline-block;
+  text-decoration: none;
   margin: 0 auto;
-  max-width: 910px;
+  width: 990px;
   vertical-align: top;
 }
+  .nav-links {
+    padding: 0;
+    margin:0;
+    height: 38px;
+    font-family: Oswald, sans-serif;
 
-.header-nav a{
+}
+.nav-links li{
+  list-style: none;
   display: inline-block;
-  text-decoration: none;
-  float: right;
-  color: white;
-  margin: 25px auto auto auto;
+  margin-top: 22px;
   padding: 0;
   font-family: Oswald, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
+  margin-left: 15px;
 }
+
+.nav-links a {
+  text-decoration: none;
+  color: #073551;
+}
+
+.nav-links img {
+  position: relative;
+  top: 5px;
+  right: 15px
+}
+
 
 .header-nav h2 {
   display: inline-block;
   float: left;
   padding: 0;
-  margin: 25px 400px auto auto;
+  margin: 25px 600px auto auto;
   font-family: Open Sans, sans-serif;
   line-height: 12px;
-  font-size: 12px,
+  font-size: 12px;
+  font-weight: bold;
+  color: #073551;
+}
+/*nav icons*/
+.header-nav::before {
+  content: url(images/logo.png);
+  float: left;
+  padding-top: 4px;
+}
+
+
+
+/*******************************
+content
+*******************************/
+.content {
+  max-width: 975px;
+  margin-left: 165px;
+  display: inline-block;
+}
+
+.column-one h1 {
+  font-family: Oswald, sans-serif;
+  color: #073551;
+}
+.column-two {
+  float:right;
 }
