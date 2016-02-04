@@ -190,8 +190,11 @@ column 1
 
 .column-one p {
   font-family: Source Sans Pro, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  margin-top: 30px;
 }
 /*********************************
 column 2
