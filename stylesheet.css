@@ -370,11 +370,26 @@ Footer
 }
 .pictures {
   display: inline-block;
-  max-width: 100%;
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  padding: 0;
 }
 
+.img {
+  width: 25%;
+  float: left;
+}
+.img h2 {
+  position: relative;
+  top: 254px;
+  font-family: Oswald;
+  font-size: 30px;
+  text-transform: uppercase;
+  left: 16px;
+  color: gray;
+}
 .img-1 {
-  display: inline-block;
   background:
     /* top, transparent red, faked with gradient */
     linear-gradient(
@@ -385,7 +400,7 @@ Footer
     /* bottom, image */
     url(images/street.jpg) no-repeat center;
     background-size: cover;
-    width: 324px;
+
     height: 330px;
 }
 
@@ -399,8 +414,11 @@ Footer
 
 }
 
+.img-1 li {
+  width: 25%;
+}
+
 .img-2 {
-  display: inline-block;
   background:
     /* top, transparent red, faked with gradient */
     linear-gradient(
@@ -411,7 +429,7 @@ Footer
     /* bottom, image */
     url(images/lauren.jpg) no-repeat center;
     background-size: cover;
-    width: 324px;
+
     height: 330px;
 }
 
@@ -425,8 +443,11 @@ Footer
 
 }
 
+.img-2 li {
+  width: 25%;
+}
+
 .img-3 {
-  display: inline-block;
   background:
     /* top, transparent red, faked with gradient */
     linear-gradient(
@@ -437,7 +458,7 @@ Footer
     /* bottom, image */
     url(images/nyc.jpg) no-repeat center;
     background-size: cover;
-    width: 324px;
+
     height: 330px;
 
 }
@@ -449,11 +470,19 @@ Footer
 
 .img-3 h2 {
   display: inline-block;
+  max-width: 222px;
+  font-size: 27px;
+  top: 225px;
+  line-height: 35px;
+  letter-spacing: 1.1px;
 
 }
 
+.img-3 li {
+  width: 25%;
+}
+
 .img-4 {
-  display: inline-block;
   background:
     /* top, transparent red, faked with gradient */
     linear-gradient(
@@ -464,7 +493,7 @@ Footer
     /* bottom, image */
     url(images/albert.jpg) no-repeat center;
     background-size: cover;
-    width: 324px;
+
     height: 330px;
 
 
@@ -477,5 +506,8 @@ Footer
 
 .img-4 h2 {
   display: inline-block;
+}
 
+.img-4 li {
+  width: 25%;
 }
