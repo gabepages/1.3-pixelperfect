@@ -196,6 +196,67 @@ column 1
   letter-spacing: 0.2px;
   margin-top: 30px;
 }
+
+.mid-heading h2 {
+  font-family: Open Sans, sans-serif;
+  text-transform: uppercase;
+  color: #0E6EB3;
+  font-size: 27px;
+  border-left: 2px solid grey;
+  padding: 13px 0px 10px 17px;
+  margin-left: 5px;
+}
+
+.c1-p1 p {
+  display: inline-block;
+  margin-top: 23px;
+}
+
+.c1-p2 p {
+  display: inline-block;
+  margin-top: 9px;
+}
+
+.boxes {
+  display: inline-block;;
+  padding: 3px;
+  margin: 0;
+}
+
+.boxes li{
+  display: inline-block;
+  list-style: none;
+  font-family: Source Sans Pro, sans-serif;
+  margin-right: 3px;
+}
+.boxes a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.boxes i {
+  color: white;
+  background-color: #5D686F;
+  padding: 8px 8px 5px 9px;
+
+}
+
+
+#blue > a > i {
+  background-color: #073551;
+}
+#blue > a > span {
+  background-color: #0F6DB3;
+}
+
+.boxes > li > a > span {
+  background-color: #A3B2BF;
+  padding: 7px 18px 4px 12px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: white;
+  letter-spacing: 0.4px;
+}
 /*********************************
 column 2
 *********************************/
