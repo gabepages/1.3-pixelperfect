@@ -364,7 +364,118 @@ Footer
   text-align: center;
   font-size: 63px;
   text-transform: uppercase;
-  margin: 0px 0px 46px 16px;
+  margin: 0px 0px 29px 16px;
   padding-top: 24px;
   border-top: 1px solid #E1E7EA;
+}
+.pictures {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.img-1 {
+  display: inline-block;
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(32, 92, 149, 0.8),
+      rgba(32, 92, 149, 0.8)
+
+    ),
+    /* bottom, image */
+    url(images/street.jpg) no-repeat center;
+    background-size: cover;
+    width: 324px;
+    height: 330px;
+}
+
+.img-1 a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.img-1 h2 {
+  display: inline-block;
+
+}
+
+.img-2 {
+  display: inline-block;
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(32, 92, 149, 0.8),
+      rgba(32, 92, 149, 0.8)
+
+    ),
+    /* bottom, image */
+    url(images/lauren.jpg) no-repeat center;
+    background-size: cover;
+    width: 324px;
+    height: 330px;
+}
+
+.img-2 a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.img-2 h2 {
+  display: inline-block;
+
+}
+
+.img-3 {
+  display: inline-block;
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(32, 92, 149, 0.8),
+      rgba(32, 92, 149, 0.8)
+
+    ),
+    /* bottom, image */
+    url(images/nyc.jpg) no-repeat center;
+    background-size: cover;
+    width: 324px;
+    height: 330px;
+
+}
+
+.img-3 a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.img-3 h2 {
+  display: inline-block;
+
+}
+
+.img-4 {
+  display: inline-block;
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(32, 92, 149, 0.8),
+      rgba(32, 92, 149, 0.8)
+
+    ),
+    /* bottom, image */
+    url(images/albert.jpg) no-repeat center;
+    background-size: cover;
+    width: 324px;
+    height: 330px;
+
+
+}
+
+.img-4 a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.img-4 h2 {
+  display: inline-block;
+
 }
