@@ -380,6 +380,9 @@ Footer
   width: 25%;
   float: left;
 }
+
+.img-1:hover {
+}
 .img h2 {
   position: relative;
   top: 254px;
@@ -387,7 +390,7 @@ Footer
   font-size: 30px;
   text-transform: uppercase;
   left: 16px;
-  color: gray;
+  color: #fff;
 }
 .img-1 {
   background:
@@ -402,6 +405,20 @@ Footer
     background-size: cover;
 
     height: 330px;
+}
+
+.img-1:hover {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(32, 92, 149, 0),
+      rgba(32, 92, 149, 0)
+
+    ),
+    /* bottom, image */
+    url(images/street.jpg) no-repeat center;
+    background-size: cover;
+
 }
 
 .img-1 a {
@@ -433,6 +450,20 @@ Footer
     height: 330px;
 }
 
+.img-2:hover {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(32, 92, 149, 0),
+      rgba(32, 92, 149, 0)
+
+    ),
+    /* bottom, image */
+    url(images/lauren.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
 .img-2 a {
   text-decoration: none;
   display: inline-block;
@@ -461,6 +492,19 @@ Footer
 
     height: 330px;
 
+}
+
+.img-3:hover {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(32, 92, 149, 0),
+      rgba(32, 92, 149, 0)
+
+    ),
+    /* bottom, image */
+    url(images/nyc.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .img-3 a {
@@ -499,6 +543,21 @@ Footer
 
 }
 
+.img-4:hover {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(32, 92, 149, 0),
+      rgba(32, 92, 149, 0)
+
+    ),
+    /* bottom, image */
+    url(images/albert.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
 .img-4 a {
   text-decoration: none;
   display: inline-block;
@@ -510,4 +569,53 @@ Footer
 
 .img-4 li {
   width: 25%;
+}
+
+
+/******************************
+bottom of footer
+*******************************/
+
+.baseline {
+  max-height: 97px;
+  background-color: #073551;
+  margin-top: -4px;
+}
+
+.baseline img{
+  padding-top: 14px;
+    padding-left: 152px;
+}
+
+.baseline p {
+  display: inline-block;
+  color: #A3B2BF;
+  font-family: Source Sans Pro;
+  vertical-align: bottom;
+  letter-spacing: -0.2px;
+  margin-bottom: 39px;
+}
+
+
+.baseline li {
+  display: inline-block;
+  font-family: Source Sans Pro;
+  padding-right: 5px;
+}
+
+.bar {
+  padding-left: 10px;
+  border-left: 1px solid #5C676E;
+}
+
+.items {
+  padding: 0px 0px 0px 291px;
+  font-size: 15px;
+  position: relative;
+  bottom: 24px;
+}
+
+.items a {
+  text-decoration: none;
+  color: #A3B2BF;
 }
