@@ -87,7 +87,13 @@ img{
 .nav-links a {
   text-decoration: none;
   color: #073551;
+
 }
+
+.nav-links a:hover {
+    color: #dedede;
+}
+
 
 .nav-links img {
   position: relative;
@@ -159,6 +165,7 @@ column 1
 
 }
 
+
 .column-one h2,
 .column-one h3 {
   display: inline-block;
@@ -189,6 +196,10 @@ column 1
   color: #BAC6D0;
 }
 
+.column-one > h3 > a:hover {
+  color: #073551;
+}
+
 .column-one p {
   font-family: Source Sans Pro, sans-serif;
   font-size: 17px;
@@ -200,6 +211,10 @@ column 1
 
 .column-one p > a {
   color: #A0B1BD;
+}
+
+.column-one p > a:hover {
+  color: #073551;
 }
 
 .mid-heading h2 {
@@ -242,14 +257,18 @@ column 1
   text-decoration: none;
   display: inline-block;
 }
-
+.boxes span:hover {
+  color: #000;
+}
 .boxes i {
   color: white;
   background-color: #5D686F;
   padding: 8px 8px 5px 9px;
-
 }
 
+.boxes i:hover {
+  color: #aaa;
+}
 
 #blue > a > i {
   background-color: #073551;
@@ -306,6 +325,10 @@ column 2
   color: #A3B2BF;
 }
 
+.c2header a:hover {
+  color: #073551;
+}
+
 .c2header li {
   display: inline-block;
   margin-right: 12px;
@@ -331,6 +354,10 @@ column 2
   float: right;
   font-size: 15px;
   margin-top: 1px;
+}
+
+.ad a:hover {
+  color: #073551;
 }
 
 .closing h3 {
@@ -381,8 +408,12 @@ Footer
   float: left;
 }
 
-.img-1:hover {
+.img a {
+  width: 100%;
+  height: 330px;
 }
+
+
 .img h2 {
   position: relative;
   top: 254px;
@@ -618,4 +649,8 @@ bottom of footer
 .items a {
   text-decoration: none;
   color: #A3B2BF;
+}
+
+.items a:hover {
+  color: #dedede;
 }
